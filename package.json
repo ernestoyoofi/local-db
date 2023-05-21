@@ -1,0 +1,27 @@
+{
+  "name": "@ernestoyoofi/local-db",
+  "version": "1.0.0",
+  "description": "Low latency reads and write database in your local data",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestoyoofi/local-db.git"
+  },
+  "keywords": [
+    "Local",
+    "Database",
+    "FileSystem"
+  ],
+  "author": "Ernestoyoofi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernestoyoofi/local-db/issues"
+  },
+  "homepage": "https://github.com/ernestoyoofi/local-db#readme"
+}
