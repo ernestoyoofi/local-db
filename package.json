@@ -1,27 +1,31 @@
 {
-  "name": "@ernestoyoofi/local-db",
+  "name": "local-db-fs",
   "version": "1.0.0",
-  "description": "Low latency reads and write database in your local data",
-  "main": "main.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "description": "A simple local file-system based document database for Node.js, supporting collections and JSON documents with automatic backup and JSON repair features.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ernestoyoofi/local-db.git"
-  },
   "keywords": [
-    "Local",
-    "Database",
-    "FileSystem"
+    "database",
+    "local",
+    "file-system",
+    "json",
+    "document",
+    "nodejs",
+    "db"
   ],
   "author": "Ernestoyoofi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ernestoyoofi/local-db/issues"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "jsonrepair": "^3.12.0"
   },
-  "homepage": "https://github.com/ernestoyoofi/local-db#readme"
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/local-db-fs.git"
+  },
+  "homepage": "https://example.com/local-db-fs#readme",
+  "bugs": {
+    "url": "https://example.com/local-db-fs/issues"
+  }
 }
