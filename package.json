@@ -2,7 +2,7 @@
   "name": "local-db-fs",
   "version": "1.0.0",
   "description": "A simple local file-system based document database for Node.js, supporting collections and JSON documents with automatic backup and JSON repair features.",
-  "main": "index.js",
+  "main": "lib/localdb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
